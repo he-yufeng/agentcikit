@@ -1,4 +1,4 @@
-# agent-ci-kit
+# agentcikit
 
 [English](README.md)
 
@@ -6,7 +6,7 @@
 
 用 AI agent 写代码、维护 MCP 服务器、给上游项目提 PR 时，难的往往不是写出改动，而是**证明改动是对的**：说明一条 CI 失败是真回归而不是噪声、把真正相关的几个文件喂给 agent、把坏掉的 MCP 服务器挡在 `main` 之外、把协议 bug 变成维护者能直接读的 transcript、以及测试 agent 不会因为某段不可信文本就去调危险工具。
 
-`agent-ci-kit` 把五个小而专注的命令行工具打包到一起，每个都产出这类证据、都能干净地接进 CI：
+`agentcikit` 把五个小而专注的命令行工具打包到一起，每个都产出这类证据、都能干净地接进 CI：
 
 | 子命令 | 作用 |
 |---|---|
@@ -21,7 +21,7 @@
 ## 安装
 
 ```bash
-pip install agent-ci-kit
+pip install agentcikit
 ```
 
 装好后是一个 `agentci` 命令带五个子命令。`agentci --help` 看总览，`agentci <子命令> --help` 看单个工具。
@@ -82,7 +82,7 @@ agentci tool-fence run tests/toolfence --markdown
 
 ## 相关项目
 
-`agent-ci-kit` 和我维护的另外几个 agent / 开源工具放在一起用：
+`agentcikit` 和我维护的另外几个 agent / 开源工具放在一起用：
 
 - [AgentProbe](https://github.com/he-yufeng/AgentProbe) — 回归测试 AI agent 的 pytest 插件（快照、语义比对、mock LLM）。
 - [GitSense](https://github.com/he-yufeng/GitSense) — 找可以上手的开源 issue，评估一个仓库的贡献难度。
@@ -92,8 +92,8 @@ agentci tool-fence run tests/toolfence --markdown
 ## 开发
 
 ```bash
-git clone https://github.com/he-yufeng/agent-ci-kit
-cd agent-ci-kit
+git clone https://github.com/he-yufeng/agentcikit
+cd agentcikit
 pip install -e ".[dev]"
 ruff check .
 ruff format --check .

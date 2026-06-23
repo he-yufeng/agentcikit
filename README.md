@@ -1,4 +1,4 @@
-# agent-ci-kit
+# agentcikit
 
 [中文文档](README_CN.md)
 
@@ -11,7 +11,7 @@ keeping a broken MCP server out of `main`, turning a protocol bug into a transcr
 read, and testing that an agent will not run a dangerous tool just because some untrusted text told
 it to.
 
-`agent-ci-kit` bundles five small, focused command-line tools that each produce that kind of
+`agentcikit` bundles five small, focused command-line tools that each produce that kind of
 evidence and fit cleanly into CI:
 
 | Subcommand | What it does |
@@ -28,7 +28,7 @@ agent/MCP projects with reviewable evidence instead of screenshots and "works on
 ## Install
 
 ```bash
-pip install agent-ci-kit
+pip install agentcikit
 ```
 
 This installs a single `agentci` command with five subcommands. Run `agentci --help` for the map,
@@ -106,7 +106,7 @@ agentci tool-fence run tests/toolfence --markdown
 
 ## Related projects
 
-`agent-ci-kit` sits next to a few other tools I maintain for agent and open-source work:
+`agentcikit` sits next to a few other tools I maintain for agent and open-source work:
 
 - [AgentProbe](https://github.com/he-yufeng/AgentProbe) — pytest plugin for regression-testing AI agents (snapshots, semantic comparison, mock LLMs).
 - [GitSense](https://github.com/he-yufeng/GitSense) — find open-source issues to work on and gauge how hard a repo is to contribute to.
@@ -116,8 +116,8 @@ agentci tool-fence run tests/toolfence --markdown
 ## Development
 
 ```bash
-git clone https://github.com/he-yufeng/agent-ci-kit
-cd agent-ci-kit
+git clone https://github.com/he-yufeng/agentcikit
+cd agentcikit
 pip install -e ".[dev]"
 ruff check .
 ruff format --check .
