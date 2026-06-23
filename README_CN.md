@@ -1,6 +1,17 @@
-# agentcikit
+<div align="center">
 
-[English](README.md)
+<img src="docs/banner.png" alt="agentcikit — 面向 AI agent、MCP 服务器和开源贡献的 CI 级证据工具集" width="100%">
+
+[![PyPI](https://img.shields.io/pypi/v/agentcikit.svg)](https://pypi.org/project/agentcikit/)
+[![Python](https://img.shields.io/pypi/pyversions/agentcikit.svg)](https://pypi.org/project/agentcikit/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Tests](https://github.com/he-yufeng/agentcikit/actions/workflows/ci.yml/badge.svg)](https://github.com/he-yufeng/agentcikit/actions)
+
+[**安装**](#安装) · [**mcp-gate**](#mcp-gate) · [**ci-repro**](#ci-repro) · [**tool-fence**](#tool-fence) · [English](README.md)
+
+</div>
+
+<p align="center"><img src="docs/demo.png" alt="agentci mcp-gate check" width="620"></p>
 
 面向 AI agent、MCP 服务器和开源贡献工作的「CI 级证据与安全」工具集。
 

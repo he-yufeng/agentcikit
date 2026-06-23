@@ -1,6 +1,17 @@
-# agentcikit
+<div align="center">
 
-[中文文档](README_CN.md)
+<img src="docs/banner.png" alt="agentcikit — CI-grade evidence for AI agents, MCP servers, and upstream contributions" width="100%">
+
+[![PyPI](https://img.shields.io/pypi/v/agentcikit.svg)](https://pypi.org/project/agentcikit/)
+[![Python](https://img.shields.io/pypi/pyversions/agentcikit.svg)](https://pypi.org/project/agentcikit/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Tests](https://github.com/he-yufeng/agentcikit/actions/workflows/ci.yml/badge.svg)](https://github.com/he-yufeng/agentcikit/actions)
+
+[**Install**](#install) · [**mcp-gate**](#mcp-gate) · [**ci-repro**](#ci-repro) · [**tool-fence**](#tool-fence) · [中文](README_CN.md)
+
+</div>
+
+<p align="center"><img src="docs/demo.png" alt="agentci mcp-gate check" width="620"></p>
 
 CI-grade evidence and safety tools for AI agents, MCP servers, and open-source contribution work.
 
